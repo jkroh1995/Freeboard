@@ -39,7 +39,7 @@
 		else if(result==-2){
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
-			script.println("alert('이 씨발.')");
+			script.println("alert('데이터베이스 .')");
 			script.println("history.back()"); // 이전 페이지로 사용자를 돌려보냄
 			script.println("</script>");
 		}
